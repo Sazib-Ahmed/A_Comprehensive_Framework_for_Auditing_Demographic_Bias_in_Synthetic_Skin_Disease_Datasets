@@ -1,0 +1,7 @@
+group,accuracy,count
+white,0.9230769230769231,338
+asian,0.8857142857142857,70
+indian,0.94,50
+latino hispanic,0.96,50
+black,0.9210526315789473,38
+middle eastern,0.8421052631578947,19

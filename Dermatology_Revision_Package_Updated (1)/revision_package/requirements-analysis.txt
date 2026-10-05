@@ -1,0 +1,10 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+Pillow>=9.1
+
+# For scripts 04 and 08 only: use the author's ORIGINAL compatible environment
+# with torch, torchvision and transformers supporting DINOv3.
+# Do not upgrade that environment blindly when reproducing old checkpoints.
+# New-environment compatibility has not been validated against real checkpoints here.

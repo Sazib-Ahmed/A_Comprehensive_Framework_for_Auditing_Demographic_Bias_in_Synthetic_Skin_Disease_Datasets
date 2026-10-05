@@ -1,0 +1,11 @@
+{
+  "archive_wide_candidates": 396,
+  "archive_wide_exact_pixel_pairs": 16,
+  "archive_cross_split_exact_pixel_pairs": 2,
+  "cohort_candidates_requiring_review": 13,
+  "cohort_exact_pixel_pairs": 0,
+  "reviewed_yes": 13,
+  "reviewed_no": 0,
+  "unresolved": 0,
+  "review_file": "D:\\AIUB\\Neural\\A_Comprehensive_Framework_for_Auditing_Demographic_Bias_in_Synthetic_Skin_Disease_Datasets\\revision_package\\runs\\review_revision_run\\reviewed_duplicate_pairs_cohort.csv"
+}

@@ -1,0 +1,4 @@
+,width,width,width,width,height,height,height,height,bytes,bytes,bytes,bytes,grayscale_mean,grayscale_mean,grayscale_mean,grayscale_mean
+,count,median,min,max,count,median,min,max,count,median,min,max,count,median,min,max
+annotation_route,,,,,,,,,,,,,,,,
+unknown,565,896.0,168,2942,565,1152.0,163,2427,565,1223922.0,2749,2102670,565,123.29424758184524,55.709402901785715,210.29663584183675

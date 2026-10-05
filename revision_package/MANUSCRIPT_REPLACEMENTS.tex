@@ -1,0 +1,147 @@
+% Proposed insertions for the existing frontiers.tex; NOT a complete revision.
+% No new scientific result is claimed by supplying this file.
+% Confirm the canonical artifacts and integrate actual new-analysis results first.
+% Replace every REVISION-PENDING marker before submission.
+
+% Suggested replacement title:
+\title[Proxy-Defined Dermatology Audit]{Auditing Proxy-Defined Subgroup Performance in a Mixed-Source Dermatology Dataset: Label Provenance, Group Support, and Fusion Baselines}
+
+% Suggested scope/contribution paragraph (Introduction):
+We investigate how subgroup performance should be interpreted when audit
+attributes are inferred from the same images used for disease classification.
+The study is an exploratory case study in a provider-described mixed
+real/synthetic dermatology dataset. Its central contribution is an audit that
+connects the provenance and meaning of proxy labels, disease composition, and
+the coverage of support-dependent subgroup summaries. A comparison of simple
+and metadata-conditioned fusion is a secondary analysis under the same internal
+evaluation protocol. The study does not identify the effect of synthetic
+augmentation, establish verified demographic fairness, or demonstrate clinical
+deployment performance.
+
+% Suggested distinction between evaluation protocols (Methods):
+The archived full-data experiments used the supplied training, validation and
+test folders, containing 2,000, 250 and 500 images, respectively. The reported
+0.9260 accuracy for the ungated dual-stream visual head corresponds to that
+500-image test set. These experiments are distinct from the seven-fold
+cross-validation of the 565-image proxy-labeled subset. For the latter, disease
+labels were stratified using a shuffled seven-fold splitter with seed 42.
+Within each remainder, a stratified validation partition used a fraction of
+0.175 and seed $42+k$ for fold $k$. This gives training/validation/test counts
+of 399/85/81 in five folds and 400/85/80 in two folds.
+\textbf{[REVISION-PENDING: state how identity-level matching of the compared
+folds was verified, or explicitly acknowledge that only reconstruction was
+possible.]}
+
+% Suggested dataset-accounting paragraph (Methods/Results):
+A recursive scan identified 2,750 decodable image files (2,000 training, 250
+validation and 500 test); no file failed decoding. The proxy-analysis metadata
+contained 565 unique image paths, all of which resolved to this tree. The
+remaining 2,185 files had no row in the proxy-analysis table and were therefore
+outside the proxy-defined cohort rather than undocumented exclusions. Within
+the cohort, the mutually exclusive audit groups were 61 aged 0--17, 493 aged
+18--59 and 11 aged 60 or older; 355 male-proxy and 210 female-proxy; and 338
+white, 70 asian, 50 indian, 50 latino hispanic, 38 black and 19 middle eastern
+appearance-proxy labels. These inherited strings are not verified identities.
+
+% Suggested duplicate/relationship audit paragraph (Methods/Limitations):
+We screened all 2,750 files using byte SHA-256, decoded-pixel SHA-256 and a
+64-bit perceptual hash with a prespecified Hamming-distance threshold of six.
+The archive-wide audit identified 16 exact image pairs, including two crossing
+the supplied training/validation/test directories. None of these exact pairs
+was present in the 565-image proxy cohort. Within that cohort, 13 perceptual-hash
+candidate pairs involving 21 images remained for side-by-side visual/source
+review; perceptual similarity alone was not treated as evidence of identity or
+common synthetic lineage. \textbf{[REVISION-PENDING: insert the completed
+13-pair decisions and any grouped-probe analysis.] } Patient, case, parent-image
+and acquisition-session identifiers were unavailable. We therefore do not
+claim patient or generation-lineage independence. Because exact cross-split
+duplicates were present outside the cohort, full-archive benchmark results are
+reported only as historical context rather than central evidence.
+
+% Suggested proxy interpretation paragraph (Methods/Limitations):
+The stored age, gender-category and appearance-category outputs are
+image-derived proxies. They are not verified age records, gender identity,
+self-identified race or ethnicity, or clinical skin phototype. The appearance
+categories retain the provenance of the automated and manual labeling process;
+no mapping to Fitzpatrick types is assumed. Model-input categories are
+distinguished from audit categories so that correcting an audit definition does
+not silently change the inputs of an existing checkpoint. Missing, uncertain
+and unmapped values are reported explicitly.
+The supplied table did not preserve image-level annotation route, body site,
+real/synthetic source status or generation lineage; these fields remain
+unknown rather than being inferred retrospectively from filenames or image
+appearance.
+
+% Suggested metric definition (use only with the NEW recalculated results):
+For proxy group $g$ and disease class $c$, we compute one-versus-rest
+true-positive and false-positive rates as
+\begin{equation}
+\mathrm{TPR}_{gc}=\frac{\mathrm{TP}_{gc}}{\mathrm{TP}_{gc}+\mathrm{FN}_{gc}},
+\qquad
+\mathrm{FPR}_{gc}=\frac{\mathrm{FP}_{gc}}{\mathrm{FP}_{gc}+\mathrm{TN}_{gc}}.
+\end{equation}
+A rate with a zero denominator is undefined. Each between-group range requires
+at least two groups with an estimable rate. For class $c$, our declared
+one-versus-rest equalized-odds difference is
+\begin{equation}
+\mathrm{EOD}_{c}=\max\left\{
+\max_g\mathrm{TPR}_{gc}-\min_g\mathrm{TPR}_{gc},
+\max_g\mathrm{FPR}_{gc}-\min_g\mathrm{FPR}_{gc}\right\}.
+\end{equation}
+We report class-specific values and estimable group coverage. The unweighted
+five-class macro-average is reported only when all five class values are
+estimable; an average over fewer classes is explicitly labeled as such. This
+definition replaces the earlier TPR-only summary and is applied consistently
+across compared models.
+
+% Suggested support/uncertainty paragraph (Methods):
+We report subgroup correct counts, sample sizes and marginal 95\% Wilson
+intervals. Support thresholds of 5, 10, 15, 20, 30 and 50 images are sensitivity
+analyses, not validity cutoffs. For every threshold, we report the number of
+retained groups and the fraction of evaluated images represented. Pooled
+out-of-fold filtering is reported separately from filtering inside individual
+test folds. The latter can exclude a group even when its pooled count is
+substantial. Worst-group accuracy is the minimum over the explicitly retained
+set. Conservative simultaneous binomial bounds are used for the minimum and
+error-rate gaps, conditional on the observed predictions. These summaries do
+not quantify uncertainty from model selection, annotation error or unknown
+patient clustering.
+
+% Suggested architecture clarification (Methods/Supplement):
+The released metadata-conditioned DSAF head uses DINOv3 ViT-B/16 features of
+dimension 768. Its two gates are feature-wise vectors of dimension 384. Each
+gate maps the 256-dimensional metadata representation through a
+$256\!\rightarrow\!384\!\rightarrow\!384$ network with GELU and a sigmoid,
+followed by $0.5+s(\sigma(\cdot)-0.5)$. The released standard configuration uses
+$s=0.5$. The gates modulate 384-dimensional global and local vectors by an
+elementwise weighted sum; they are not constrained to sum to one. The local
+branch in the released implementation consumes all non-CLS tokens, including
+register tokens. This computation is preserved when recovering the original
+checkpoints. The full-data image-only dual-stream head is a different model:
+it concatenates the global and local vectors and has no metadata gates.
+
+% Proposed interpretation of verified aggregate support analysis.
+% Keep only if the historical category definitions are explicitly labeled;
+% replace values if audit age categories are recomputed.
+In the archived concatenation results, the within-fold threshold of at least
+15 images retained only one or two composite groups and represented about
+49.2\% of held-out images on average. Applying the same numerical threshold to
+pooled out-of-fold counts retained 11 groups and 532 of 565 images. These
+statistics describe different evaluation populations. The higher worst-group
+accuracy after filtering does not reflect a change in any prediction or a
+fairness intervention.
+
+% Suggested comparison conclusion; include final paired estimates separately.
+The observed comparison does not demonstrate an advantage of the adaptive
+head under this dataset and protocol. It does not establish equivalence or
+universal superiority of simple concatenation. Interpretation is limited by
+the number of evaluated cases, overlapping cross-validation training sets,
+configuration-selection history, and the meaning and provenance of the
+image-derived proxy features.
+
+% Suggested explanation limitation (Discussion):
+Selected attention or saliency maps are descriptive visualizations. They do
+not establish causal reliance on lesions, exclude background shortcuts, or
+validate subgroup fairness. Quantitative claims about lesion-specific reliance
+would require verified masks, a defined perturbation protocol, and suitable
+controls evaluated on genuinely held-out cases.

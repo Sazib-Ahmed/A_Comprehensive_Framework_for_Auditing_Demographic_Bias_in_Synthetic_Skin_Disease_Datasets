@@ -1,0 +1,7 @@
+{
+  "metadata_sha256": "2ff2c29654ae2966226bff495b951432a7392b0ea92632d6f2726c7f9abb07e6",
+  "split_seed": 42,
+  "validation_seed": "42+fold",
+  "validation_fraction_of_remainder": 0.175,
+  "limitation": "Reconstruction, not historically saved identity evidence. Original CSV row order was explicitly confirmed. No patient/duplicate grouping."
+}

@@ -1,0 +1,54 @@
+{
+  "repository": "D:\\AIUB\\Neural\\A_Comprehensive_Framework_for_Auditing_Demographic_Bias_in_Synthetic_Skin_Disease_Datasets",
+  "metadata_selected": "D:\\AIUB\\Neural\\complete_metadata_m.csv",
+  "preferred_metadata": "D:\\AIUB\\Neural\\complete_metadata_m.csv",
+  "dataset_root": "D:\\AIUB\\Neural\\Synthetic_Skin_Disease_Dataset",
+  "metadata_comparison": {
+    "metadata_m_exists": true,
+    "metadata_original_exists": true,
+    "equal_after_path_normalization": true,
+    "rows": 565,
+    "columns": [
+      "filepath",
+      "split",
+      "label",
+      "age",
+      "dominant_gender",
+      "dominant_race"
+    ],
+    "metadata_m_sha256": "2ff2c29654ae2966226bff495b951432a7392b0ea92632d6f2726c7f9abb07e6",
+    "metadata_original_sha256": "6df1fd913e3905719c74b0c9ea81b1f91bf2d63be01763fdc9ffb17c0ca48025"
+  },
+  "dataset_mapping": {
+    "metadata_rows": 565,
+    "metadata_unique_relative_paths": 565,
+    "image_files_found": 2750,
+    "matched_metadata_images": 565,
+    "extra_image_files": 2185,
+    "mapping": "metadata filepath relative to the Train/Test/Val dataset root"
+  },
+  "split_counts": {
+    "Train": 438,
+    "Test": 103,
+    "Val": 24
+  },
+  "disease_counts": {
+    "Sarampion": 205,
+    "Varicela": 170,
+    "Monkeypox": 128,
+    "Herpes": 45,
+    "Melanoma": 17
+  },
+  "environment": {
+    "python_executable": "C:\\Users\\sazib\\anaconda3\\envs\\skin\\python.exe",
+    "python_version": "3.13.11",
+    "conda_default_env": "skin",
+    "pip_check_ok": true,
+    "pip_check_output": "No broken requirements found.",
+    "torch_version": "2.11.0+cu130",
+    "cuda_available": true,
+    "cuda_device": "NVIDIA GeForce RTX 5060 Ti",
+    "dinov3_config_available_locally": true,
+    "dinov3_hidden_size": 768
+  }
+}

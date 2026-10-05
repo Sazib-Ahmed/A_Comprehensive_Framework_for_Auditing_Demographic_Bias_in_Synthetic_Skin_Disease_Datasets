@@ -1,0 +1,16 @@
+{
+  "metadata_sha256": "2ff2c29654ae2966226bff495b951432a7392b0ea92632d6f2726c7f9abb07e6",
+  "raw_files": 2750,
+  "proxy_rows": 565,
+  "phash_distance": 6,
+  "image_path_mode": "metadata path relative to data root",
+  "duplicate_interpretation": "pHash candidates require review; no duplicates removed; absence of matches does not exclude common source cases",
+  "source_interpretation": "Unknown stays unknown. Real/synthetic and route are not inferred from image appearance or filenames.",
+  "age_interpretation": "Audit bins 0-17,18-59,60+ derive from numeric age. Do not replace model input bins without retraining.",
+  "missing_id_fields": [
+    "patient_id",
+    "case_id",
+    "parent_id",
+    "acquisition_session"
+  ]
+}

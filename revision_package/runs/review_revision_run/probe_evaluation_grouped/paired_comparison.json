@@ -1,0 +1,16 @@
+{
+  "model_a": "probe_concat",
+  "model_b": "probe_image_only",
+  "n": 565,
+  "mean_fold_delta": -0.008818342151675476,
+  "correct_a_wrong_b": 1,
+  "wrong_a_correct_b": 6,
+  "mean_difference": -0.008818342151675476,
+  "sample_sd": 0.011743083101374587,
+  "corrected_se": 0.006877481166556943,
+  "ci_low": -0.02564693232415005,
+  "ci_high": 0.008010248020799101,
+  "two_sided_p": 0.2470804753931154,
+  "test_train_ratio": 0.20014319758810337,
+  "note": "Approximate dependence-corrected CV sensitivity; not a selection correction or equivalence test"
+}

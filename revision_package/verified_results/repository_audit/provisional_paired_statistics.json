@@ -1,0 +1,13 @@
+{
+  "mean_difference": 0.01781305114638454,
+  "sample_sd": 0.03937644042815605,
+  "corrected_se": 0.023128601947864466,
+  "ci_low": -0.03878059906025986,
+  "ci_high": 0.07440670135302893,
+  "two_sided_p": 0.47042390595684574,
+  "test_train_ratio": 0.20214822771213745,
+  "note": "Approximate dependence-corrected CV sensitivity; not a selection correction or equivalence test",
+  "sign_flip_two_sided_p_exploratory": 0.375,
+  "publication_status": "PROVISIONAL: validate identical sample IDs/labels per fold before reporting as paired inference",
+  "limitations": "Overlapping CV training sets; one CV run; configuration-selection history unresolved; no equivalence claim. Sign-flip independence is not guaranteed."
+}

@@ -1,0 +1,20 @@
+stage,n
+original image files,2750
+decode success,2750
+decode failures (not automatically excluded),0
+metadata rows,565
+unique proxy subset images,565
+age_proxy: 18-59,493
+age_proxy: 0-17,61
+age_proxy: 60+,11
+gender_proxy: male,355
+gender_proxy: female,210
+appearance_proxy: white,338
+appearance_proxy: asian,70
+appearance_proxy: indian,50
+appearance_proxy: latino hispanic,50
+appearance_proxy: black,38
+appearance_proxy: middle eastern,19
+annotation_route: unknown,565
+source_status: unknown,565
+body_site: unknown,565

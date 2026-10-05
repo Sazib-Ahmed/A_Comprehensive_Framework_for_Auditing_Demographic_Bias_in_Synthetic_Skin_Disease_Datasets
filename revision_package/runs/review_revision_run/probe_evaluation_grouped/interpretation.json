@@ -1,0 +1,8 @@
+{
+  "counts": "One held-out prediction per sample/model. Pooling is not averaging subgroup fold accuracies.",
+  "eod": "OVR per disease max(TPR group range,FPR group range). Both ranges need >=2 eligible groups; macro all classes is NA if any class unavailable.",
+  "missing": "Zero positive/negative denominators are NA; no implicit zero rates.",
+  "uncertainty": "Wilson marginal intervals; conservative simultaneous Bonferroni-Clopper-Pearson bounds for WGA/EOD. Conditional on observed predictions and independent image units. No training, tuning, label-error, or patient-cluster uncertainty.",
+  "exclusions": "Threshold curves remove groups from the estimand and must show coverage. Thresholds do not change any predictions.",
+  "inference": "Do not interpret nonsignificance as equivalence. Paired corrected CV tests are approximate and exploratory."
+}

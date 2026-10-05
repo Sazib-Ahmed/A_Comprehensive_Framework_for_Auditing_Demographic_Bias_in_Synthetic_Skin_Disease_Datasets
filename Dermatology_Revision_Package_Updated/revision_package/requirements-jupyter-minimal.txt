@@ -1,0 +1,14 @@
+# CPU audit, metrics, split reconstruction and frozen logistic probes
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.2
+Pillow>=9.1
+jupyterlab>=4
+ipykernel>=6
+
+# Checkpoint recovery / DINOv3 feature caching additionally use the already
+# installed compatible torch, torchvision and transformers versions.  They are
+# intentionally not pinned here because changing the historical environment can
+# invalidate checkpoint recovery.
+

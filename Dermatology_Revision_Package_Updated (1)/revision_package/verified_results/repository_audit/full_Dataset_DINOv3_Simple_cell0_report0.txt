@@ -1,0 +1,11 @@
+precision    recall  f1-score   support
+
+      Herpes     0.9375    0.9000    0.9184       100
+    Melanoma     0.9901    1.0000    0.9950       100
+   Monkeypox     0.8925    0.8300    0.8601       100
+   Sarampion     0.9000    0.9000    0.9000       100
+    Varicela     0.8000    0.8800    0.8381       100
+
+    accuracy                         0.9020       500
+   macro avg     0.9040    0.9020    0.9023       500
+weighted avg     0.9040    0.9020    0.9023       500

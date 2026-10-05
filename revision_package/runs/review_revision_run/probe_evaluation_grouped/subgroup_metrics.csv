@@ -1,0 +1,685 @@
+model,scope,attribute,group,n,correct,accuracy,wilson95_low,wilson95_high
+probe_concat,all,age_proxy,0-17,61,47,0.7704918032786885,0.65086594876416,0.8580676964712871
+probe_concat,all,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_concat,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_concat,all,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_concat,all,gender_proxy,male,355,335,0.9436619718309859,0.9145878619219686,0.9632371280756312
+probe_concat,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_concat,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_concat,all,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_concat,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_concat,all,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_concat,all,appearance_proxy,white,338,316,0.9349112426035503,0.9034209849535765,0.9566268308211966
+probe_concat,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_concat,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_concat,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_concat,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_concat,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_concat,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_concat,all,composite_proxy,0-17|male|white,30,25,0.8333333333333334,0.6643564949358398,0.9266345762815145
+probe_concat,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_concat,all,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_concat,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_concat,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_concat,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_concat,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_concat,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_concat,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_concat,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_concat,all,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_concat,all,composite_proxy,18-59|male|white,164,155,0.9451219512195121,0.8990054569513506,0.9708630548325734
+probe_concat,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_concat,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_concat,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_concat,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_concat,all,annotation_route,unknown,565,531,0.9398230088495575,0.917085431659475,0.9566202244478808
+probe_concat,all,source_status,unknown,565,531,0.9398230088495575,0.917085431659475,0.9566202244478808
+probe_concat,route=unknown,age_proxy,0-17,61,47,0.7704918032786885,0.65086594876416,0.8580676964712871
+probe_concat,route=unknown,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_concat,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_concat,route=unknown,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_concat,route=unknown,gender_proxy,male,355,335,0.9436619718309859,0.9145878619219686,0.9632371280756312
+probe_concat,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_concat,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_concat,route=unknown,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_concat,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_concat,route=unknown,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_concat,route=unknown,appearance_proxy,white,338,316,0.9349112426035503,0.9034209849535765,0.9566268308211966
+probe_concat,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_concat,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_concat,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_concat,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_concat,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_concat,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_concat,route=unknown,composite_proxy,0-17|male|white,30,25,0.8333333333333334,0.6643564949358398,0.9266345762815145
+probe_concat,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_concat,route=unknown,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_concat,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_concat,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_concat,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_concat,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_concat,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_concat,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_concat,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_concat,route=unknown,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_concat,route=unknown,composite_proxy,18-59|male|white,164,155,0.9451219512195121,0.8990054569513506,0.9708630548325734
+probe_concat,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_concat,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_concat,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_concat,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_concat,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_concat,route=unknown,annotation_route,unknown,565,531,0.9398230088495575,0.917085431659475,0.9566202244478808
+probe_concat,route=unknown,source_status,unknown,565,531,0.9398230088495575,0.917085431659475,0.9566202244478808
+probe_image_only,all,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_image_only,all,age_proxy,18-59,493,477,0.9675456389452333,0.9479352689887981,0.9799261077454067
+probe_image_only,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_image_only,all,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_image_only,all,gender_proxy,male,355,339,0.9549295774647887,0.9280490605023647,0.9720698974951744
+probe_image_only,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_image_only,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_image_only,all,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_image_only,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_image_only,all,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_image_only,all,appearance_proxy,white,338,320,0.9467455621301775,0.9173986540156331,0.9660518234128752
+probe_image_only,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_image_only,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_image_only,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_image_only,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_image_only,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_image_only,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,all,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_image_only,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_image_only,all,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_image_only,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_image_only,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_image_only,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_image_only,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_image_only,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_image_only,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_image_only,all,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_image_only,all,composite_proxy,18-59|male|white,164,158,0.9634146341463414,0.9224898678454188,0.9831266649707213
+probe_image_only,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_image_only,all,annotation_route,unknown,565,536,0.9486725663716814,0.9272575723887483,0.9640276743847515
+probe_image_only,all,source_status,unknown,565,536,0.9486725663716814,0.9272575723887483,0.9640276743847515
+probe_image_only,route=unknown,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_image_only,route=unknown,age_proxy,18-59,493,477,0.9675456389452333,0.9479352689887981,0.9799261077454067
+probe_image_only,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_image_only,route=unknown,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_image_only,route=unknown,gender_proxy,male,355,339,0.9549295774647887,0.9280490605023647,0.9720698974951744
+probe_image_only,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_image_only,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_image_only,route=unknown,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_image_only,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_image_only,route=unknown,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_image_only,route=unknown,appearance_proxy,white,338,320,0.9467455621301775,0.9173986540156331,0.9660518234128752
+probe_image_only,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_image_only,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_image_only,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_image_only,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_image_only,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_image_only,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,route=unknown,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_image_only,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_image_only,route=unknown,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_image_only,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_image_only,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_image_only,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_image_only,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_image_only,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_image_only,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_image_only,route=unknown,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_image_only,route=unknown,composite_proxy,18-59|male|white,164,158,0.9634146341463414,0.9224898678454188,0.9831266649707213
+probe_image_only,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_image_only,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_image_only,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_image_only,route=unknown,annotation_route,unknown,565,536,0.9486725663716814,0.9272575723887483,0.9640276743847515
+probe_image_only,route=unknown,source_status,unknown,565,536,0.9486725663716814,0.9272575723887483,0.9640276743847515
+probe_independent_columns_train_randomized_r0,all,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_independent_columns_train_randomized_r0,all,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_independent_columns_train_randomized_r0,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r0,all,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_independent_columns_train_randomized_r0,all,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r0,all,appearance_proxy,white,338,317,0.9378698224852071,0.9068911499237139,0.959007331264493
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r0,all,composite_proxy,18-59|male|white,164,155,0.9451219512195121,0.8990054569513506,0.9708630548325734
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r0,all,annotation_route,unknown,565,532,0.9415929203539823,0.9191098631475693,0.9581117110930154
+probe_independent_columns_train_randomized_r0,all,source_status,unknown,565,532,0.9415929203539823,0.9191098631475693,0.9581117110930154
+probe_independent_columns_train_randomized_r0,route=unknown,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_independent_columns_train_randomized_r0,route=unknown,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_independent_columns_train_randomized_r0,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_independent_columns_train_randomized_r0,route=unknown,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r0,route=unknown,appearance_proxy,white,338,317,0.9378698224852071,0.9068911499237139,0.959007331264493
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,18-59|male|white,164,155,0.9451219512195121,0.8990054569513506,0.9708630548325734
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r0,route=unknown,annotation_route,unknown,565,532,0.9415929203539823,0.9191098631475693,0.9581117110930154
+probe_independent_columns_train_randomized_r0,route=unknown,source_status,unknown,565,532,0.9415929203539823,0.9191098631475693,0.9581117110930154
+probe_independent_columns_train_randomized_r1,all,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_independent_columns_train_randomized_r1,all,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_independent_columns_train_randomized_r1,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r1,all,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_independent_columns_train_randomized_r1,all,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r1,all,appearance_proxy,white,338,317,0.9378698224852071,0.9068911499237139,0.959007331264493
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,0-17|male|white,30,27,0.9,0.7437891742081593,0.9654001112526658
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r1,all,composite_proxy,18-59|male|white,164,154,0.9390243902439024,0.8914070660983012,0.9665454386748841
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r1,all,annotation_route,unknown,565,533,0.9433628318584071,0.9211390793259995,0.9595984130478139
+probe_independent_columns_train_randomized_r1,all,source_status,unknown,565,533,0.9433628318584071,0.9211390793259995,0.9595984130478139
+probe_independent_columns_train_randomized_r1,route=unknown,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_independent_columns_train_randomized_r1,route=unknown,age_proxy,18-59,493,473,0.9594320486815415,0.9381723376961405,0.9735873231728286
+probe_independent_columns_train_randomized_r1,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_independent_columns_train_randomized_r1,route=unknown,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r1,route=unknown,appearance_proxy,white,338,317,0.9378698224852071,0.9068911499237139,0.959007331264493
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,0-17|male|white,30,27,0.9,0.7437891742081593,0.9654001112526658
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,18-59|male|white,164,154,0.9390243902439024,0.8914070660983012,0.9665454386748841
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r1,route=unknown,annotation_route,unknown,565,533,0.9433628318584071,0.9211390793259995,0.9595984130478139
+probe_independent_columns_train_randomized_r1,route=unknown,source_status,unknown,565,533,0.9433628318584071,0.9211390793259995,0.9595984130478139
+probe_independent_columns_train_randomized_r2,all,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_independent_columns_train_randomized_r2,all,age_proxy,18-59,493,474,0.9614604462474645,0.9405944371805389,0.9751906526547393
+probe_independent_columns_train_randomized_r2,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r2,all,gender_proxy,female,210,198,0.9428571428571428,0.9027901231463525,0.9670131461811394
+probe_independent_columns_train_randomized_r2,all,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,asian,70,64,0.9142857142857143,0.8253432750766051,0.9601233303548878
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r2,all,appearance_proxy,white,338,319,0.9437869822485208,0.913878876802773,0.9637209352123017
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|female|white,15,11,0.7333333333333333,0.4804956594401943,0.8910254667430761
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|asian,37,34,0.918918918918919,0.7869932065071162,0.9720394258995521
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r2,all,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r2,all,annotation_route,unknown,565,534,0.9451327433628318,0.9231732856259132,0.9610801248811289
+probe_independent_columns_train_randomized_r2,all,source_status,unknown,565,534,0.9451327433628318,0.9231732856259132,0.9610801248811289
+probe_independent_columns_train_randomized_r2,route=unknown,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_independent_columns_train_randomized_r2,route=unknown,age_proxy,18-59,493,474,0.9614604462474645,0.9405944371805389,0.9751906526547393
+probe_independent_columns_train_randomized_r2,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,gender_proxy,female,210,198,0.9428571428571428,0.9027901231463525,0.9670131461811394
+probe_independent_columns_train_randomized_r2,route=unknown,gender_proxy,male,355,336,0.9464788732394366,0.9179267239311725,0.9654717580664122
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,asian,70,64,0.9142857142857143,0.8253432750766051,0.9601233303548878
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,middle eastern,19,17,0.8947368421052632,0.6860591728889099,0.9706414397011299
+probe_independent_columns_train_randomized_r2,route=unknown,appearance_proxy,white,338,319,0.9437869822485208,0.913878876802773,0.9637209352123017
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|female|white,15,11,0.7333333333333333,0.4804956594401943,0.8910254667430761
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|asian,37,34,0.918918918918919,0.7869932065071162,0.9720394258995521
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|middle eastern,18,16,0.8888888888888888,0.672002348698212,0.9689804773543876
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_independent_columns_train_randomized_r2,route=unknown,annotation_route,unknown,565,534,0.9451327433628318,0.9231732856259132,0.9610801248811289
+probe_independent_columns_train_randomized_r2,route=unknown,source_status,unknown,565,534,0.9451327433628318,0.9231732856259132,0.9610801248811289
+probe_joint_tuple_train_randomized_r0,all,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_joint_tuple_train_randomized_r0,all,age_proxy,18-59,493,475,0.9634888438133874,0.9430283333668712,0.9767821854347158
+probe_joint_tuple_train_randomized_r0,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r0,all,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_joint_tuple_train_randomized_r0,all,gender_proxy,male,355,339,0.9549295774647887,0.9280490605023647,0.9720698974951744
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,middle eastern,19,18,0.9473684210526315,0.753612688331012,0.9906480059376995
+probe_joint_tuple_train_randomized_r0,all,appearance_proxy,white,338,319,0.9437869822485208,0.913878876802773,0.9637209352123017
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,0-17|male|white,30,27,0.9,0.7437891742081593,0.9654001112526658
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|middle eastern,18,17,0.9444444444444444,0.7424269921812741,0.990124809021697
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r0,all,annotation_route,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r0,all,source_status,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r0,route=unknown,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_joint_tuple_train_randomized_r0,route=unknown,age_proxy,18-59,493,475,0.9634888438133874,0.9430283333668712,0.9767821854347158
+probe_joint_tuple_train_randomized_r0,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,gender_proxy,female,210,196,0.9333333333333333,0.8912216570902916,0.9598761655849963
+probe_joint_tuple_train_randomized_r0,route=unknown,gender_proxy,male,355,339,0.9549295774647887,0.9280490605023647,0.9720698974951744
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,indian,50,47,0.94,0.8378290831116182,0.979385029651026
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,middle eastern,19,18,0.9473684210526315,0.753612688331012,0.9906480059376995
+probe_joint_tuple_train_randomized_r0,route=unknown,appearance_proxy,white,338,319,0.9437869822485208,0.913878876802773,0.9637209352123017
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,0-17|male|white,30,27,0.9,0.7437891742081593,0.9654001112526658
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|female|indian,13,11,0.8461538461538461,0.5776536898051745,0.9567418216419186
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|middle eastern,18,17,0.9444444444444444,0.7424269921812741,0.990124809021697
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r0,route=unknown,annotation_route,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r0,route=unknown,source_status,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r1,all,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_joint_tuple_train_randomized_r1,all,age_proxy,18-59,493,476,0.9655172413793104,0.9454749327330847,0.9783610150348114
+probe_joint_tuple_train_randomized_r1,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r1,all,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_joint_tuple_train_randomized_r1,all,gender_proxy,male,355,338,0.952112676056338,0.9246559705920471,0.9698894954055072
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,middle eastern,19,18,0.9473684210526315,0.753612688331012,0.9906480059376995
+probe_joint_tuple_train_randomized_r1,all,appearance_proxy,white,338,318,0.9408284023668639,0.9103767664921213,0.9613723801095194
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|middle eastern,18,17,0.9444444444444444,0.7424269921812741,0.990124809021697
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r1,all,annotation_route,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r1,all,source_status,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r1,route=unknown,age_proxy,0-17,61,48,0.7868852459016393,0.6687758459836244,0.8710022625994256
+probe_joint_tuple_train_randomized_r1,route=unknown,age_proxy,18-59,493,476,0.9655172413793104,0.9454749327330847,0.9783610150348114
+probe_joint_tuple_train_randomized_r1,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,gender_proxy,female,210,197,0.9380952380952381,0.8969814042650159,0.9634691417363739
+probe_joint_tuple_train_randomized_r1,route=unknown,gender_proxy,male,355,338,0.952112676056338,0.9246559705920471,0.9698894954055072
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,middle eastern,19,18,0.9473684210526315,0.753612688331012,0.9906480059376995
+probe_joint_tuple_train_randomized_r1,route=unknown,appearance_proxy,white,338,318,0.9408284023668639,0.9103767664921213,0.9613723801095194
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|female|white,15,10,0.6666666666666666,0.41713547738519774,0.8482367556028526
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|middle eastern,18,17,0.9444444444444444,0.7424269921812741,0.990124809021697
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,18-59|male|white,164,156,0.9512195121951219,0.9067067294106304,0.9750777893840323
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r1,route=unknown,annotation_route,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r1,route=unknown,source_status,unknown,565,535,0.9469026548672567,0.9252127035289901,0.9625566251112809
+probe_joint_tuple_train_randomized_r2,all,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_joint_tuple_train_randomized_r2,all,age_proxy,18-59,493,479,0.9716024340770791,0.9529020904542487,0.983010144212574
+probe_joint_tuple_train_randomized_r2,all,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r2,all,gender_proxy,female,210,198,0.9428571428571428,0.9027901231463525,0.9670131461811394
+probe_joint_tuple_train_randomized_r2,all,gender_proxy,male,355,341,0.9605633802816902,0.9349004971750089,0.9763654448224998
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,middle eastern,19,19,1.0,0.8318207759473837,1.0
+probe_joint_tuple_train_randomized_r2,all,appearance_proxy,white,338,321,0.9497041420118343,0.9209374267227847,0.9683637161191575
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|female|white,15,11,0.7333333333333333,0.4804956594401943,0.8910254667430761
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|middle eastern,18,18,1.0,0.8241207763533425,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,18-59|male|white,164,158,0.9634146341463414,0.9224898678454188,0.9831266649707213
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,all,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r2,all,annotation_route,unknown,565,539,0.9539823008849557,0.9334275927109922,0.9684054084621939
+probe_joint_tuple_train_randomized_r2,all,source_status,unknown,565,539,0.9539823008849557,0.9334275927109922,0.9684054084621939
+probe_joint_tuple_train_randomized_r2,route=unknown,age_proxy,0-17,61,49,0.8032786885245902,0.6869005942449246,0.8837219776857282
+probe_joint_tuple_train_randomized_r2,route=unknown,age_proxy,18-59,493,479,0.9716024340770791,0.9529020904542487,0.983010144212574
+probe_joint_tuple_train_randomized_r2,route=unknown,age_proxy,60+,11,11,1.0,0.7411670330319684,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,gender_proxy,female,210,198,0.9428571428571428,0.9027901231463525,0.9670131461811394
+probe_joint_tuple_train_randomized_r2,route=unknown,gender_proxy,male,355,341,0.9605633802816902,0.9349004971750089,0.9763654448224998
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,asian,70,65,0.9285714285714286,0.8434458778290468,0.969105782962153
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,black,38,37,0.9736842105263158,0.8650512388404787,0.9953394123142312
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,indian,50,48,0.96,0.8653990931249297,0.9889611156723802
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,latino hispanic,50,49,0.98,0.8950455641036219,0.9964607407283539
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,middle eastern,19,19,1.0,0.8318207759473837,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,appearance_proxy,white,338,321,0.9497041420118343,0.9209374267227847,0.9683637161191575
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|female|indian,1,0,0.0,0.0,0.7934506856227626
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|female|white,15,11,0.7333333333333333,0.4804956594401943,0.8910254667430761
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|male|black,8,7,0.875,0.5291118177871464,0.9775825085499433
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,0-17|male|white,30,26,0.8666666666666667,0.703186733179637,0.9469034451594526
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|female|asian,26,25,0.9615384615384616,0.8110722109696524,0.9931780150064564
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|female|indian,13,12,0.9230769230769231,0.6668604907890041,0.9862895787574435
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|female|latino hispanic,25,24,0.96,0.8045593626380625,0.9929037664980127
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|female|white,124,121,0.9758064516129032,0.9312798718154085,0.9917383813281402
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|asian,37,35,0.9459459459459459,0.822953456491869,0.9850490231668423
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|black,30,30,1.0,0.8864866068260312,0.9999999999999999
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|indian,32,32,1.0,0.8928208017449293,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|latino hispanic,23,23,1.0,0.8568833815495731,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|middle eastern,18,18,1.0,0.8241207763533425,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,18-59|male|white,164,158,0.9634146341463414,0.9224898678454188,0.9831266649707213
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|female|asian,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|female|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|male|asian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,composite_proxy,60+|male|white,3,3,1.0,0.4385029682449546,1.0
+probe_joint_tuple_train_randomized_r2,route=unknown,annotation_route,unknown,565,539,0.9539823008849557,0.9334275927109922,0.9684054084621939
+probe_joint_tuple_train_randomized_r2,route=unknown,source_status,unknown,565,539,0.9539823008849557,0.9334275927109922,0.9684054084621939
+probe_metadata_only,all,age_proxy,0-17,61,41,0.6721311475409836,0.5472180631353664,0.7766488020144636
+probe_metadata_only,all,age_proxy,18-59,493,237,0.48073022312373226,0.4369464096458498,0.5248120151742156
+probe_metadata_only,all,age_proxy,60+,11,5,0.45454545454545453,0.21271271622459764,0.719908462590678
+probe_metadata_only,all,gender_proxy,female,210,116,0.5523809523809524,0.48478707885782335,0.6180928777292994
+probe_metadata_only,all,gender_proxy,male,355,167,0.4704225352112676,0.4190958945361734,0.5223824394639867
+probe_metadata_only,all,appearance_proxy,asian,70,29,0.4142857142857143,0.30630178568736466,0.5311878821543955
+probe_metadata_only,all,appearance_proxy,black,38,27,0.7105263157894737,0.5524286232424794,0.8299672217151693
+probe_metadata_only,all,appearance_proxy,indian,50,20,0.4,0.27608389730256544,0.5381856225241064
+probe_metadata_only,all,appearance_proxy,latino hispanic,50,37,0.74,0.6044684273515117,0.8412847250644762
+probe_metadata_only,all,appearance_proxy,middle eastern,19,11,0.5789473684210527,0.3627590353425504,0.7685810871754576
+probe_metadata_only,all,appearance_proxy,white,338,159,0.47041420118343197,0.4178348559389407,0.5236584899267209
+probe_metadata_only,all,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,all,composite_proxy,0-17|female|indian,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,all,composite_proxy,0-17|female|white,15,12,0.8,0.5481455128483065,0.9295245065301844
+probe_metadata_only,all,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_metadata_only,all,composite_proxy,0-17|male|black,8,6,0.75,0.40927543031016883,0.9285207872478909
+probe_metadata_only,all,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_metadata_only,all,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,all,composite_proxy,0-17|male|white,30,17,0.5666666666666667,0.3919730700081361,0.7262251442353347
+probe_metadata_only,all,composite_proxy,18-59|female|asian,26,13,0.5,0.3206059352575905,0.6793940647424095
+probe_metadata_only,all,composite_proxy,18-59|female|indian,13,0,0.0,0.0,0.22809537235419838
+probe_metadata_only,all,composite_proxy,18-59|female|latino hispanic,25,17,0.68,0.48410269273102247,0.8279480969309202
+probe_metadata_only,all,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,all,composite_proxy,18-59|female|white,124,70,0.5645161290322581,0.47660751506366933,0.6485475023117273
+probe_metadata_only,all,composite_proxy,18-59|male|asian,37,13,0.35135135135135137,0.2182560713392713,0.5124097687744917
+probe_metadata_only,all,composite_proxy,18-59|male|black,30,21,0.7,0.5212421254128504,0.8333525173175619
+probe_metadata_only,all,composite_proxy,18-59|male|indian,32,17,0.53125,0.3644951711897464,0.6913061289193116
+probe_metadata_only,all,composite_proxy,18-59|male|latino hispanic,23,19,0.8260869565217391,0.6286235235977385,0.9302134643693744
+probe_metadata_only,all,composite_proxy,18-59|male|middle eastern,18,10,0.5555555555555556,0.33716415642042774,0.7544048187299437
+probe_metadata_only,all,composite_proxy,18-59|male|white,164,56,0.34146341463414637,0.27326034779176,0.41692346992903406
+probe_metadata_only,all,composite_proxy,60+|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,all,composite_proxy,60+|female|latino hispanic,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,all,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_metadata_only,all,composite_proxy,60+|male|asian,2,1,0.5,0.09453120573423074,0.9054687942657693
+probe_metadata_only,all,composite_proxy,60+|male|indian,2,0,0.0,0.0,0.6576197724933469
+probe_metadata_only,all,composite_proxy,60+|male|white,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_metadata_only,all,annotation_route,unknown,565,283,0.5008849557522124,0.45979033648267614,0.5419676225839382
+probe_metadata_only,all,source_status,unknown,565,283,0.5008849557522124,0.45979033648267614,0.5419676225839382
+probe_metadata_only,route=unknown,age_proxy,0-17,61,41,0.6721311475409836,0.5472180631353664,0.7766488020144636
+probe_metadata_only,route=unknown,age_proxy,18-59,493,237,0.48073022312373226,0.4369464096458498,0.5248120151742156
+probe_metadata_only,route=unknown,age_proxy,60+,11,5,0.45454545454545453,0.21271271622459764,0.719908462590678
+probe_metadata_only,route=unknown,gender_proxy,female,210,116,0.5523809523809524,0.48478707885782335,0.6180928777292994
+probe_metadata_only,route=unknown,gender_proxy,male,355,167,0.4704225352112676,0.4190958945361734,0.5223824394639867
+probe_metadata_only,route=unknown,appearance_proxy,asian,70,29,0.4142857142857143,0.30630178568736466,0.5311878821543955
+probe_metadata_only,route=unknown,appearance_proxy,black,38,27,0.7105263157894737,0.5524286232424794,0.8299672217151693
+probe_metadata_only,route=unknown,appearance_proxy,indian,50,20,0.4,0.27608389730256544,0.5381856225241064
+probe_metadata_only,route=unknown,appearance_proxy,latino hispanic,50,37,0.74,0.6044684273515117,0.8412847250644762
+probe_metadata_only,route=unknown,appearance_proxy,middle eastern,19,11,0.5789473684210527,0.3627590353425504,0.7685810871754576
+probe_metadata_only,route=unknown,appearance_proxy,white,338,159,0.47041420118343197,0.4178348559389407,0.5236584899267209
+probe_metadata_only,route=unknown,composite_proxy,0-17|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,route=unknown,composite_proxy,0-17|female|indian,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,route=unknown,composite_proxy,0-17|female|white,15,12,0.8,0.5481455128483065,0.9295245065301844
+probe_metadata_only,route=unknown,composite_proxy,0-17|male|asian,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_metadata_only,route=unknown,composite_proxy,0-17|male|black,8,6,0.75,0.40927543031016883,0.9285207872478909
+probe_metadata_only,route=unknown,composite_proxy,0-17|male|indian,2,2,1.0,0.34238022750665303,1.0
+probe_metadata_only,route=unknown,composite_proxy,0-17|male|latino hispanic,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,route=unknown,composite_proxy,0-17|male|white,30,17,0.5666666666666667,0.3919730700081361,0.7262251442353347
+probe_metadata_only,route=unknown,composite_proxy,18-59|female|asian,26,13,0.5,0.3206059352575905,0.6793940647424095
+probe_metadata_only,route=unknown,composite_proxy,18-59|female|indian,13,0,0.0,0.0,0.22809537235419838
+probe_metadata_only,route=unknown,composite_proxy,18-59|female|latino hispanic,25,17,0.68,0.48410269273102247,0.8279480969309202
+probe_metadata_only,route=unknown,composite_proxy,18-59|female|middle eastern,1,1,1.0,0.20654931437723745,1.0
+probe_metadata_only,route=unknown,composite_proxy,18-59|female|white,124,70,0.5645161290322581,0.47660751506366933,0.6485475023117273
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|asian,37,13,0.35135135135135137,0.2182560713392713,0.5124097687744917
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|black,30,21,0.7,0.5212421254128504,0.8333525173175619
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|indian,32,17,0.53125,0.3644951711897464,0.6913061289193116
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|latino hispanic,23,19,0.8260869565217391,0.6286235235977385,0.9302134643693744
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|middle eastern,18,10,0.5555555555555556,0.33716415642042774,0.7544048187299437
+probe_metadata_only,route=unknown,composite_proxy,18-59|male|white,164,56,0.34146341463414637,0.27326034779176,0.41692346992903406
+probe_metadata_only,route=unknown,composite_proxy,60+|female|asian,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,route=unknown,composite_proxy,60+|female|latino hispanic,1,0,0.0,0.0,0.7934506856227626
+probe_metadata_only,route=unknown,composite_proxy,60+|female|white,2,2,1.0,0.34238022750665303,1.0
+probe_metadata_only,route=unknown,composite_proxy,60+|male|asian,2,1,0.5,0.09453120573423074,0.9054687942657693
+probe_metadata_only,route=unknown,composite_proxy,60+|male|indian,2,0,0.0,0.0,0.6576197724933469
+probe_metadata_only,route=unknown,composite_proxy,60+|male|white,3,2,0.6666666666666666,0.2076596008020477,0.9385080552796037
+probe_metadata_only,route=unknown,annotation_route,unknown,565,283,0.5008849557522124,0.45979033648267614,0.5419676225839382
+probe_metadata_only,route=unknown,source_status,unknown,565,283,0.5008849557522124,0.45979033648267614,0.5419676225839382

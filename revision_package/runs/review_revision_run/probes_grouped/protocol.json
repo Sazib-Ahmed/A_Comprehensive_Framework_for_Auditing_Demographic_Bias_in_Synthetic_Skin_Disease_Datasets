@@ -1,0 +1,12 @@
+{
+  "feature_file_sha256": "c21a0a12ec438869a370a26a5d40610259ea9543ef6af5597375b5d58c464612",
+  "manifest_sha256": "dc06cbe8098374c506eff499d3a5d26645cb187ab3b6821d3cadb0b82295a292",
+  "metadata_sha256": "0997430b0afbdb908f4a818096bd4417192ed81823ea3a7cd99ed2f0d066ad18",
+  "seed": 20261004,
+  "sklearn_version": "1.8.0",
+  "C": 1.0,
+  "models": "L2 multiclass logistic probes; fixed hyperparameters, no test-driven selection; train-only image scaling and metadata vocabulary",
+  "feature_requirement": "Backbone independent of this dataset fine-tuning. Old held-out feature caches invalid for new folds if backbone was fine-tuned.",
+  "exclusions": "Validation rows are not used for fitting these fixed-configuration probes.",
+  "caveat": "NEW diagnostic experiment; not matched-architecture ablations of original DSAF/concat; not evidence that source demographics cause disease. No fresh DINO training."
+}

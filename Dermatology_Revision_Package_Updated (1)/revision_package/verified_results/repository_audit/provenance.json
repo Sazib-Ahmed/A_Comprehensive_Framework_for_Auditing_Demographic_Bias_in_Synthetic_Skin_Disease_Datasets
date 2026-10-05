@@ -1,0 +1,21 @@
+{
+  "commit": "c81c8917afab02f04d9ceb56cef04a6474f8fd99",
+  "files": {
+    "metadata_Multimodal_DINOv3_Concat_KFold/kfold_performance.csv": "88b61c8904d509e3d268cdd60569a32aec6a9d1d5a9ca036f554da264bb1b59d",
+    "metadata_Multimodal_DINOv3_DSAF_KFold/kfold_performance.csv": "b7d15d7252866d822e07e3f58d8581c67164990115a1e5adbaed63c2c529c8ec",
+    "metadata_Multimodal_ResNet50_Concat_KFold/kfold_performance.csv": "45225693e2daa1e21c94ce40a732ac87a1fadc336db8edbf469c786b80ca5dfe",
+    "metadata_Multimodal_VGG16_Concat_KFold/kfold_performance.csv": "431260a00f52b1b27edcb8bcabc87a97a8b42d2db5f8693b0b89854a93b42e47",
+    "_full_Dataset_DINOv3_DSAF_(unfreeze)/_full_Dataset_DINOv3_DSAF_(unfreeze).ipynb": "e2d857e7ca5a6b1a32228d867c1fcc1eaf43b840525ff2f5d15e7faa333bb69f",
+    "_full_Dataset_DINOv3_Simple_(unfreeze)/_full_Dataset_DINOv3_Simple_(unfreeze).ipynb": "652d68b4120cbd0c141ae624830f8e419c9326be432d02f7cc2d41111115fe94",
+    "by_Yamlick_Multimodal_ResNet-50_with_Metadata_.ipynb": "ccd9780f6b3c7d525ba41b7915f811866c7494cc622fcf085cd57c3d39b2b73b",
+    "full_Dataset_DINOv3_DSAF/full_Dataset_DINOv3_DSAF.ipynb": "d41172a211415381a46cfcb92c5b79a965477e50381645e0c70d9f9fd0230156",
+    "full_Dataset_DINOv3_Simple/full_Dataset_DINOv3_Simple.ipynb": "592422c80021ddefe96eae686296cd7f1ab9bea52896c535631f0f59f95d7ba9",
+    "full_Dataset_ResNet50/full_Dataset_ResNet50.ipynb": "15c064a4fa3d7ff109e00d79b97400cad2b2cbed96a1e4e7e2aa76e4d3eebe4c",
+    "full_Dataset_VGG16/full_Dataset_VGG16.ipynb": "a39edee19d94dbb6944231ef744dc4e8c3e3a57ba11de0c8ffc68705f5ad2b37",
+    "metadata_Multimodal_DINOv3_Concat_KFold/metadata_Multimodal_DINOv3_Concat_KFold.ipynb": "d2664f301bd305f7e1a0d1500ecb4776f1b5feb6ebfad208d27e41ecc5dd6efc",
+    "metadata_Multimodal_DINOv3_DSAF_KFold/metadata_Multimodal_DINOv3_DSAF_KFold.ipynb": "cc79ddaab3a201d942e29fe852d33037f57839f5e47737ef1e25e60909d3a52f",
+    "metadata_Multimodal_ResNet50_Concat_KFold/metadata_Multimodal_ResNet50_Concat_KFold.ipynb": "a2cfaa5c7df6692d32c33650f1818f6eac6c9b66b540df640432b95e0e5339ab",
+    "metadata_Multimodal_VGG16_Concat_KFold/metadata_Multimodal_VGG16_Concat_KFold.ipynb": "bd83b626c3674ff5e2ccb4e40723b1d13b555d24d9ce4b34062990bab8225314"
+  },
+  "scope": "Released summaries only; no identity-level pairing verified"
+}

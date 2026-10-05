@@ -1,0 +1,9 @@
+attribute,raw_label,final_label,n
+appearance_proxy,asian,asian,70
+appearance_proxy,black,black,38
+appearance_proxy,indian,indian,50
+appearance_proxy,latino hispanic,latino hispanic,50
+appearance_proxy,middle eastern,middle eastern,19
+appearance_proxy,white,white,338
+gender_proxy,man,male,355
+gender_proxy,woman,female,210

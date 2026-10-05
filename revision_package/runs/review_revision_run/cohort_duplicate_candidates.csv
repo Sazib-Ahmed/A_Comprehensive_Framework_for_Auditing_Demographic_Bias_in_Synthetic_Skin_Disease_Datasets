@@ -1,0 +1,14 @@
+pair_id,sample_id_a,sample_id_b,byte_identical,pixel_identical,phash_distance,archive_split_a,archive_split_b,label_a,label_b,verified_related,review_reason,metadata_split_a,metadata_label_a,metadata_split_b,metadata_label_b
+1,Test/Sarampion/Sarampion (9).jpg,Train/Sarampion/Sarampion (71).jpg,False,False,0,Test,Train,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Test,Sarampion,Train,Sarampion
+2,Test/Sarampion/Sarampion (9).jpg,Val/Sarampion/Sarampion (18).png,False,False,0,Test,Val,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Test,Sarampion,Val,Sarampion
+3,Train/Sarampion/Sarampion (133).jpg,Train/Sarampion/Sarampion (67).jpg,False,False,0,Train,Train,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Train,Sarampion,Train,Sarampion
+4,Train/Sarampion/Sarampion (71).jpg,Val/Sarampion/Sarampion (18).png,False,False,0,Train,Val,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Train,Sarampion,Val,Sarampion
+5,Train/Varicela/ChickenPox (192).jpg,Train/Varicela/ChickenPox (59).png,False,False,0,Train,Train,Varicela,Varicela,,CANDIDATE ONLY; visual/source review required,Train,Varicela,Train,Varicela
+6,Train/Varicela/ChickenPox (225).jpg,Val/Varicela/ChickenPox (5).jpg,False,False,0,Train,Val,Varicela,Varicela,,CANDIDATE ONLY; visual/source review required,Train,Varicela,Val,Varicela
+7,Test/Sarampion/Sarampion (20).jpeg,Train/Sarampion/Sarampion (107).jpg,False,False,2,Test,Train,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Test,Sarampion,Train,Sarampion
+8,Test/Varicela/ChickenPox (31).png,Train/Varicela/ChickenPox (57).png,False,False,2,Test,Train,Varicela,Varicela,,CANDIDATE ONLY; visual/source review required,Test,Varicela,Train,Varicela
+9,Train/Sarampion/Sarampion (122).jpg,Train/Sarampion/Sarampion (58).png,False,False,2,Train,Train,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Train,Sarampion,Train,Sarampion
+10,Test/Sarampion/Sarampion (33).png,Val/Sarampion/Sarampion (2).jpeg,False,False,6,Test,Val,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Test,Sarampion,Val,Sarampion
+11,Train/Sarampion/Sarampion (102).jpg,Val/Sarampion/Sarampion (2).jpeg,False,False,6,Train,Val,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Train,Sarampion,Val,Sarampion
+12,Train/Sarampion/Sarampion (34).jpg,Train/Sarampion/Sarampion (58).png,False,False,6,Train,Train,Sarampion,Sarampion,,CANDIDATE ONLY; visual/source review required,Train,Sarampion,Train,Sarampion
+13,Train/Varicela/2024-06-26_21-06-29_5345.png,Train/Varicela/2024-06-26_21-50-05_2915.png,False,False,6,Train,Train,Varicela,Varicela,,CANDIDATE ONLY; visual/source review required,Train,Varicela,Train,Varicela

@@ -1,0 +1,11 @@
+{
+  "metadata_sha256": "0997430b0afbdb908f4a818096bd4417192ed81823ea3a7cd99ed2f0d066ad18",
+  "seed": 42,
+  "folds": 7,
+  "n_images": 565,
+  "n_clusters": 553,
+  "linkage_fields": [
+    "verified_duplicate_or_related_pairs"
+  ],
+  "caveat": "NEW folds require new model fitting. Do not evaluate old checkpoints on reassigned test images. pHash absence does not prove patient independence. Validation fraction is approximate; report actual counts."
+}
